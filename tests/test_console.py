@@ -115,7 +115,7 @@ class TestConsole(unittest.TestCase):
 
     """
     def test_all(self):
-        """ test the all command """
+         test the all command 
         with unittest.mock.patch('sys.stdout',
                                  new_callable=io.StringIO) as mock_stdout:
             console = self.create()
